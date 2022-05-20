@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">Prize Bond Checker</string>
+  <string name="title_home">Home</string>
+  <string name="title_prizebond">Prize Bonds</string>
+  <string name="title_notifications">Notifications</string>
+  <string name="add_new_prize_bonds">Add New Prize Bonds</string>
+</resources>
