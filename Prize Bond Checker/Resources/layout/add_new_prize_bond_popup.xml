@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/add_new_bond_popup"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Enter Bond Number"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView1"
+    />
+    <EditText
+        android:id="@+id/bond_number_entry_field"
+        android:inputType="text"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView1"
+        android:minWidth="100px"
+        android:minHeight="25px"
+    />
+    <Button
+        android:id="@+id/add"
+        android:text="@android:string/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bond_number_entry_field"
+        android:layout_alignRight="@id/bond_number_entry_field"
+        android:backgroundTint="@android:color/holo_green_light"
+    />
+    <Button
+        android:id="@+id/button1"
+        android:text="@android:string/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bond_number_entry_field"
+        android:layout_toLeftOf="@id/add"
+        android:layout_marginRight="@dimen/def_drawer_elevation"
+        android:backgroundTint="@android:color/holo_red_light"
+    />
+
+
+</RelativeLayout>
